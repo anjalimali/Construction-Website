@@ -1,0 +1,114 @@
+
+.block1{
+    background: #fe8c00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f83600, #fe8c00); 
+}
+.block1 a{
+    color: black;
+    font-weight: bold;
+}
+.background{
+    background-image: url('./images/construction-g6d905c283_1920.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+    border-bottom: 30px solid orangered;
+    margin-bottom: 3rem;
+}
+.upper{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    padding: 5rem;
+}
+.head{
+    font-weight: 700;
+    font-size: 5rem;
+}
+.btn1{
+    background-color: rgba(255, 68, 0, 0.833);
+    border: none;
+}
+.background::after{
+    content: ' ';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.529);
+}
+.img1{
+    padding: 1rem;
+}
+.img1:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.head2{
+    font-weight: 700;
+}
+.info{
+    background: #fe8c00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+margin-top: 4rem;
+color: white;
+padding: 2rem;
+}
+.img3:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.img2{
+    height: 40vh;
+}
+.row>* {
+   
+    padding-right: 0;
+    padding-left: 0;
+    /* margin-top: var(--bs-gutter-y); */
+}
+.feature{
+    padding: 4rem;
+}
+.img2:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+  .row1{
+    border-bottom:10px solid #fe8c00;
+    border-top:10px solid #fe8c00;
+    border-left:10px solid #fe8c00;
+    border-right:10px solid #fe8c00;
+  }
+  .services{
+    background: #fe8c00;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f83600, #fe8c00);
+  }
+  .block{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+  
+  .block:hover{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  }
+@media screen and (max-width:768px) {
+    .nav1{
+        display: none;
+    }
+    .head{
+        font-size: 2rem;
+    }
+    .upper{
+        padding: 1em;
+    }
+    .feature{
+        padding: 2rem;
+    }
+    .footer1{
+        display: flex;
+        flex-direction: column;
+    }
+}
